@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Tree -->
+  <project name="A34-PeaceZone/lineage_device_samsung_a34-e"
+           path="device/samsung/a34x"
+           remote="github"
+           revision="lineage-23.2-a" />
+
+  <!-- Vendor Tree -->
+  <project name="A34-PeaceZone/android_vendor_samsung_a34x-e"
+           path="vendor/samsung/a34x"
+           remote="github"
+           revision="A346EXXSADYG1" />
+
+  <!-- Common MediaTek hardware -->
+  <project name="LineageOS/android_hardware_mediatek"
+           path="hardware/mediatek"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- Common Samsung hardware -->
+  <project name="LineageOS/android_hardware_samsung"
+           path="hardware/samsung"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- MediaTek vendor sepolicy -->
+  <project name="LineageOS/android_device_mediatek_sepolicy_vndr"
+           path="device/mediatek/sepolicy_vndr"
+           remote="github"
+           revision="lineage-23.2" />
+
+</manifest>
